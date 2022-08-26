@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;step01_Syntax.txt&apos; to &apos;step02.Ex01People.java&apos;&#x0D;&#x0A;- Original project: &apos;step01_Syntax&apos;&#x0D;&#x0A;- Destination element: &apos;step02.Ex01People.java&apos;&#x0D;&#x0A;- Original element: &apos;step01_Syntax.txt&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move file" destination="/src&lt;step02{Ex01People.java" element1="step01_Syntax.txt" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1661496481368" units="0" version="1.0"/>
+</session>

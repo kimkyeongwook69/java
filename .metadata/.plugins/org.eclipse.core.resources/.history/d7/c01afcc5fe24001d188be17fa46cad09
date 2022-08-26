@@ -1,0 +1,15 @@
+package step01;
+
+public class Ex04Reference {
+
+	public static void main(String[] args) {
+		// 문자열 String 
+		String str1 = "Java";
+		// toString() : 현재 객체가 가지고 있는 정보 출력
+		System.out.println(str1);
+		
+		str1 = null; 
+		System.out.println(str1.toString());
+	}
+
+}

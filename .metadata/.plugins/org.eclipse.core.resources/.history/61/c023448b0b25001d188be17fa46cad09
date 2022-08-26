@@ -1,0 +1,43 @@
+package step02;
+
+
+class People {
+	String name = "java";
+	int age = 26;
+
+
+// ㅣ기본 생성자
+	People() {
+		System.out.println("기본 생성자 호출");
+	}
+	
+	// 메소드
+	String getName() {
+		return name;
+	}
+	
+	int getAge() {
+		return age;
+	}
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+public class Ex02People {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

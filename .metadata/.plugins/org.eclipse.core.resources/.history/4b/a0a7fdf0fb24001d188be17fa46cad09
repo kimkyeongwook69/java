@@ -1,0 +1,48 @@
+/* 조건문(Condition) : 주어진 조건이 참일 경우, 주어진 기능 수행
+1. if문
+	- 문법
+		if(조건식) {
+			수행 코드;
+			...
+		}else if(조건식){
+			수행 코드;
+			...
+		}else {
+			수행 코드;
+		}
+	
+	- 종류
+		1. if : 조건이 하나인 경우
+		2. if -else : 조건이 하나, 조건이 거짓 -> else 블럭의 코드가 실행
+		3. if -else if -else... : 조건이 여러개
+		
+2. switch/case문 : 변수 값에 따라 수행코드 결정
+	- 문법
+		switch(변수값){
+			case 입력값1:
+				수행 코드;
+			case 입력값2:
+				수행 코드;
+			
+			...
+		
+			default:
+				수행 코드;
+		}
+ */
+
+
+
+
+
+
+
+package step01;
+
+public class Ex03ControFlow {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

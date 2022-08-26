@@ -1,0 +1,12 @@
+package step01;
+
+public class Ex04Reference {
+
+	public static void main(String[] args) {
+		// 문자열 String 
+		String str1 = "Java";
+		System.out.println(str1);
+
+	}
+
+}
