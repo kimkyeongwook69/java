@@ -6,9 +6,8 @@ class People {
 //	int age = 26;
 	
 	String name;
-	int age;
-	char test;
-	
+	private int age;
+
 	// 기본생성자 : 사용자 정의 생성자가  있는 경우에는 반드시 개발자가 지정
 	People(){
 		System.out.println("기본 생성자 호출");
@@ -44,9 +43,8 @@ public class Ex02People {
 	public static void main(String[] args) {
 		People ppl1 = new People();
 		System.out.println(ppl1.name);
-		System.out.println(ppl1.age);
-		System.out.println(ppl1.test);
-		
+//		System.out.println(ppl1.age);
+
 		// step01 : 초기값을 갖고 있는 상태의 객체 생성 --> 사용자 정의 생성자 필수
 		People ppl2 = new People("apple", 30);
 		System.out.println(ppl2.getName());

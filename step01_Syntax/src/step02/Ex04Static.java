@@ -16,6 +16,9 @@ class Student {
 	// static 초기화 블럭 
 	static {
 		schoolName = "IT";
+		
+		Student stu = new Student();
+		stu.name = "IT";
 	}
 
 	// static final 상수 : 대문자 _, 
@@ -49,6 +52,7 @@ class Student {
 
 
 public class Ex04Static {
+	
 	public static void main(String[] args) {
 		Student stu1 = new Student("friday", 32);
 		
