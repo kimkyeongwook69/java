@@ -8,6 +8,7 @@ public class StudentModel {
 	private static Student[] allData = new Student[5];
 	private static int index;
 	
+	
 	// 가상의 데이터 저장
 	static {
 		allData[0] = new Student("Java", 26);
